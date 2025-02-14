@@ -74,7 +74,7 @@ class Blockchain:
     @property
     def last_block(self) -> Block:
         """last block in the chain"""
-        return self.__chain[-1]    
+        return self.__chain[-1]
 
     def to_table(self, new_block: Optional[Block]) -> Table:
         """output the blockchain as a table"""
